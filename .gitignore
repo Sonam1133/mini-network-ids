@@ -1,0 +1,27 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated live captures and logs
+data/live_capture_*.pcap
+logs/alerts.json
+
+# Keep the project directories
+!data/test_traffic.pcap
+!logs/test_alerts.json
